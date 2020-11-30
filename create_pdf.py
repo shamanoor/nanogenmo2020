@@ -61,5 +61,5 @@ def generate_pdf_from_list(thesis_title, limericks, monorhymes):
             story.append(Paragraph(sentence, normal))
         story.append(Spacer(1, 0.25 * inch))
 
-    doc = SimpleDocTemplate(thesis_title + "rhymes.pdf")
+    doc = SimpleDocTemplate(thesis_title + "- hymes.pdf")
     doc.build(story)

@@ -132,7 +132,7 @@ if not os.path.exists('./monorhyme.pkl'):
 
 
 def main():
-    thesis_title = "Emergence and How One Might Live."
+    thesis_title = "Emergence and How One Might Live"
 
     limericks = open('limericks.pkl', 'rb')
     monorhymes = open('monorhyme.pkl', 'rb')
